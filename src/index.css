@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+
+    /* Brand Colors */
+    --color-primary: #fde7ea;
+    --color-primary-text: #9d174d;
+
+    /* Accent */
+    --color-accent: #99e4df; 
+    --color-accent-text: #7a1f3d;
+
+    /* Muted */
+  --color-muted-text: #6b7280;
+
+  /* Hover */
+  --color-hover:#ff6201;
+}
+
+/*Custom Utility Classes */
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-primary {
+    color: var(--color-primary-text)
+}
+
+.text-accent {
+    background-color: var(--color-accent);
+}
+
+.text-muted {
+    color: var(--color-muted-text);
+}
+
+.text-hover {
+    color: var(--color-hover);
+}
+
+html {
+    scroll-behavior: smooth;
+}
